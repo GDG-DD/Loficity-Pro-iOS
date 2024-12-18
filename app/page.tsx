@@ -319,7 +319,8 @@ const EnhancedLofiPlayer = () => {
       className={styles['theme-container']}
       data-theme={mounted ? currentTheme : 'dark'}
     >
-      <a
+      {/* Remove the GitHub link and icon */}
+     {/* <a
         href="https://github.com/btahir/next-beats"
         target="_blank"
         rel="noopener noreferrer"
@@ -327,9 +328,9 @@ const EnhancedLofiPlayer = () => {
         aria-label="View source on GitHub"
       >
         <GitHubIcon />
-      </a>
+      </a> */}
       <div className="flex min-h-screen w-full items-start justify-center bg-[var(--lofi-background)] p-4 transition-colors duration-500 sm:items-center sm:p-8">
-        <div className="w-full max-w-4xl space-y-8 py-4">
+        <div className="w-full max-w-4xl space-y-8 py-4">  
           {/* Retro TV */}
           <div className="shadow-[var(--lofi-accent)]/30 relative aspect-video overflow-hidden rounded-2xl border-4 border-[var(--lofi-border)] bg-black shadow-md transition-all duration-500">
             <div className="absolute inset-0">
@@ -372,6 +373,16 @@ const EnhancedLofiPlayer = () => {
               </div>
               <div className="animate-scan absolute bottom-0 left-0 right-0 h-px bg-white/10" />
             </div>
+          </div>
+
+
+   {/* Add your transparent logo here */}
+   <div className="flex justify-center py-4">
+            <img
+              src="/bannerlogo.png" // Replace with your logo's path
+              alt="Logo"
+              className="h-20 w-auto" // Adjust size and opacity as needed
+            />
           </div>
 
           {/* Main Controls Section */}

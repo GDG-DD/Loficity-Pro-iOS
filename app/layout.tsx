@@ -14,10 +14,10 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Next Beats | Your Ultimate Music Experience',
-  description: 'Next Beats - A modern music player built with Next.js. Discover, play, and enjoy your favorite tracks with a beautiful interface.',
+  title: 'Loficity | Focusing with Lofi',
+  description: 'Loficity - Use Lofi for focus. Every moment of buildinghis app is made with Lofi.',
   keywords: ['music', 'player', 'next.js', 'streaming', 'audio', 'beats'],
-  authors: [{ name: 'Next Beats Team' }],
+  authors: [{ name: 'Durian Designs' }],
   viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: '/favicon.ico',
